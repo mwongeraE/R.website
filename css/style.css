@@ -121,5 +121,22 @@ body{
 .albums .album img {
   border-radius: 210px 15px;
   padding-top: 20px;
-  
+  width: 540px;
+  height: 204px;
+}
+.albums .album h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 80%;
+}
+.albums .album p{
+  width: 85%;
+  line-height: 1.7em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.about {
+  height: 250px;
+  background-image: url("http://www.zastavki.com/pictures/originals/2013/Creative_Wallpaper__039655_.jpg");
 }
