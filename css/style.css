@@ -58,3 +58,21 @@ body{
   font-size: 30px;
 }
 /* end header */
+/* welcome */
+.welcome{
+  color: #777;
+  text-align: center;
+  height: 400px;
+  padding-top: 50px;
+  width: 100%;
+}
+.welcome h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+.welcome p {
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+/* end welcome */
