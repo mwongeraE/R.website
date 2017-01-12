@@ -20,3 +20,41 @@ body{
 .clear{
   clear: both;
 }
+.header{
+  background-image: url("http://imgview.info/download/20150816/trey-ratcliff-iceland-landscape-road-2560x1466.jpg");
+  text-align: center;
+  color: #fff;
+  height: 500px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  background-size: cover;
+}
+.header .nav {
+  overflow: hidden;
+  background-color: #3d3c33;
+}
+
+.header .nav ul li {
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+.header .nav ul li :hover{
+  color: #c4c048;
+  cursor: pointer;
+  transition: .5s;
+}
+.header h1{
+  padding-top: 100px;
+  display: block;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 7em;
+  color: #FFF;
+  letter-spacing: -0.05em;
+}
+.header p {
+  font-size: 30px;
+}
+/* end header */
