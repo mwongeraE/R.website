@@ -1,2 +1,2 @@
 # R.website
-A simple static website using HTML and CSS
+A simple static website template using HTML and CSS
