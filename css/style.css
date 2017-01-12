@@ -6,162 +6,176 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 hr {
-  border: 0;
-  border-top: solid 1px #ddd;
-  margin: 6em 0 0 0;
-  padding: 6em 0 0 0;
-}
-*{padding: 0;margin: 0;}
-.container{width: 85%; margin: auto;}
-body{
-  background-color: #f2f2f2;
-  font-family: "Raleway";
-}
-.clear{
-  clear: both;
-}
-.header{
-  background-image: url("http://imgview.info/download/20150816/trey-ratcliff-iceland-landscape-road-2560x1466.jpg");
-  text-align: center;
-  color: #fff;
-  height: 500px;
-  background-repeat: no-repeat;
-  text-transform: uppercase;
-  background-size: cover;
-}
-.header .nav {
-  overflow: hidden;
-  background-color: #3d3c33;
+    border: 0;
+    border-top: solid 1px #ddd;
+    margin: 6em 0 0 0;
+    padding: 6em 0 0 0;
 }
 
+*{padding:0;margin:0;}
+.container{width:85%; margin:auto;}
+body{background-color:#f2f2f2;font-family: 'Raleway';}
+.clear{clear:both;}
+.header{
+background-image:url("http://imgview.info/download/20150816/trey-ratcliff-iceland-landscape-road-2560x1466.jpg");
+  text-align:center;
+  color:#fff;
+  height:500px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  background-size:cover;
+}
+.header .nav {
+  overflow:hidden;
+  background-color:#3d3c33;
+
+}
+/* .header .nav ul {} */
 .header .nav ul li {
-  list-style: none;
-  float: left;
-  padding: 20px;
+  list-style-type:none;
+  float:left;
+  padding:20px;
+
 }
-.header .nav ul li :hover{
-  color: #c4c048;
-  cursor: pointer;
-  transition: .5s;
-}
+.header .nav ul li:hover{color:#c4c048;cursor:pointer;transition:.5s;}
+
 .header h1{
-  padding-top: 100px;
-  display: block;
-  text-decoration: none;
-  font-weight: 300;
-  line-height: 1em;
-  font-size: 7em;
-  color: #FFF;
-  letter-spacing: -0.05em;
+
+  padding-top:100px;
+/*   font-size:100px; */
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 7em;
+     color: #FFF;
+    letter-spacing: -0.05em;
 }
 .header p {
-  font-size: 30px;
+  font-size:30px;
 }
-/* end header */
-/* welcome */
+/* End Header */
+
+/* Start Welcome */
 .welcome{
-  color: #777;
-  text-align: center;
-  height: 400px;
-  padding-top: 50px;
-  width: 100%;
+  color:#777;
+  text-align:center;
+  height:400px;
+  padding-top:50px;
+  width:100%;
 }
 .welcome h2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  letter-spacing: 2px;
+  padding-top:30px;
+  padding-bottom:30px;
+  letter-spacing:2px;
 }
 .welcome p {
-  line-height: 2em;
-  letter-spacing: 1px;
+  line-height:2em;
+  letter-spacing:1px;
 }
-/* end welcome */
-/* works */
+.welcome p span{color:black;font-weight:bold}
+/* End Welcome */
+
+/* Start Works */
 .works {
-  text-align: center;
-  color: #777;
+  text-align:center;
+  color:#777;
 }
 .works .work {
-  display: inline-block;
-  width: 30.333%;
-  padding-left: 10px;
-  padding-bottom: 7em;
+  display:inline-block;
+  width:30.3333%;
+  padding-left:10px;
+  padding-bottom:7em;
 }
-.works .work h3 {
-  padding-bottom: 35px;
-  letter-spacing: 2px;
+.works .work h3{
+  padding-bottom:35px;
+  letter-spacing:2px;
 }
-.works .work p {
-  line-height: 2em;
-  width: 90%;
+.works .work p{
+  line-height:2em;
+  width:90%;
 }
 .works .work button{
   margin-top: 1.5em;
   background-color: #80BA8E;
-  color: #fff;
+  color:#fff;
   padding: 0.8em 2em;
   font-weight: 300;
   border: 2px solid #80BA8E;
   border-radius: 35px 5px;
-  box-shadow: 1px 1px 1px #777;
+  box-shadow:1px 1px 1px #777 ; /* CSS3 */
+
 }
-.works .work button:hover{
-  background-color: #fff;
-  color: #80BA8E;
-  cursor: pointer;
-  transition: .5s;
-}
-/* end works */
-/* start album */
+.works .work button:hover{  background-color: #fff;
+  color:#80BA8E; cursor:pointer; transition:.5s;}
+/* End Works */
+
+/* Satrt Album */
 .albums {
-  height: 1000px;
-  background-color: #fff;
-  overflow: hidden;
+  height:1000px;
+  background-color:#fff;
+/*   text-align:center; */
+   overflow: hidden;
+
+}
+.albums .album {
+  display:inline-block;
+  color:#777;
+  width:50%;
+  float: left;
+/*   padding-left:10px; */
+/*   padding-bottom:7em; */
 }
 .albums .album img {
+/*   width:95%; */
   border-radius: 210px 15px;
-  padding-top: 20px;
+  padding-top:30px;
   width: 540px;
-  height: 204px;
+  height:204px;
+/*   580x204 */
 }
-.albums .album h2{
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  width: 80%;
+.albums .album h2 {
+   text-align:center;
+  padding-top:20px;
+  padding-bottom:40px;
+  width:80%;
+
 }
 .albums .album p{
-  width: 85%;
-  line-height: 1.7em;
-  text-align: center;
-  padding-bottom: 30px;
+  width:85%;
+  line-height:1.7em;
+  text-align:center;
+  padding-bottom:30px;
 }
-.about {
-  height: 250px;
-  background-image: url("http://www.zastavki.com/pictures/originals/2013/Creative_Wallpaper__039655_.jpg");
+/* End Albout */
+
+/* Start  About */
+.about{
+  height:250px;
+  background-image:url("http://www.zastavki.com/pictures/originals/2013/Creative_Wallpaper__039655_.jpg");
+
 }
 .about blockquote {
-  text-align: center;
+  text-align:center;
   margin: 0;
   padding: 1em 4em;
   line-height: 1.5em;
   font-size: 1.8em;
-  color: #ddd;
-  padding-top: 90px;
+  color:#ddd;
+  padding-top:90px;
 }
+/* End About */
+
+/* Start Footer */
 .footer{
-  overflow: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
+  overflow:hidden;
+  background-color:black;
+  color:#fff;
+  text-align:center;
   padding: 1em 4em;
   line-height: 1.5em;
   font-size: 1.8em;
-  color: #333;
+  color:#333;
 }
-.footer p:hover{
-  color: #999;
-  cursor: pointer;
-  transition: .5s;
-}
-/* end footer */
+.footer p:hover{color:#999;cursor:pointer;transition:.5s}
+/* End Footer */
