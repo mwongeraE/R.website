@@ -140,3 +140,28 @@ body{
   height: 250px;
   background-image: url("http://www.zastavki.com/pictures/originals/2013/Creative_Wallpaper__039655_.jpg");
 }
+.about blockquote {
+  text-align: center;
+  margin: 0;
+  padding: 1em 4em;
+  line-height: 1.5em;
+  font-size: 1.8em;
+  color: #ddd;
+  padding-top: 90px;
+}
+.footer{
+  overflow: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1em 4em;
+  line-height: 1.5em;
+  font-size: 1.8em;
+  color: #333;
+}
+.footer p:hover{
+  color: #999;
+  cursor: pointer;
+  transition: .5s;
+}
+/* end footer */
